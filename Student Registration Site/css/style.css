@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F4F4;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);}
+
+
+.topnav p {
+    display: inline-block;
+    color: white;
+    padding: 0 0 0 50px;
+    font-size: 20px;
+
+}
+
+.topnav a {
+    float: right;
+    padding: 20px 20px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.topnav a:hover {
+    color: rgb(89, 120, 167);
+}
+
+.topnav a.active {
+    background-color: rgb(89, 120, 167);
+    color: white;
+}
+.topnav a.active:hover {
+    background-color: rgb(89, 120, 167);
+    color: rgb(0, 0, 0);
+}
+
+.log {
+    text-align: center;
+}
+
+.log a {
+    text-decoration: none;
+    border-top: 50px ;
+}
+
+.signup-form h2{
+    text-align: center;
+}
+
+.signup-form form {
+    text-align: center;
+}
+
+.signup-form input{
+    margin: 2px;
+}
+
+.signup-form button {
+    background-color: rgb(89, 120, 167) ;
+    color: white;
+    border-width: 2px;
+    margin: 5px;
+}
+
+.signup-form button:hover {
+    color: black;
+}
+
+.errors{
+    color:rgb(89, 120, 167) ;
+    font-size: 20px;
+}
